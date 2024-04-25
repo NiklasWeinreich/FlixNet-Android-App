@@ -27,14 +27,14 @@
             android:textStyle="bold"
             android:layout_weight="1"/>
 
-        <ImageView
+        <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="21dp"
-            android:layout_weight="2"
-            android:src="@drawable/baseline_search_24"
-            android:scaleY="1"
-            android:scaleX="1" />
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:hint="Søg..."
+            android:drawableEnd="@drawable/baseline_search_24"
+            android:src="@drawable/baseline_search_24" />
 
 
     </LinearLayout>
