@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">FlixNet-Android-App</string>
+    <string name="flixnet">FLIXNET</string>
 </resources>
