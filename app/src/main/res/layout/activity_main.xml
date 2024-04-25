@@ -8,26 +8,40 @@
     tools:context=".MainActivity">
 
     <LinearLayout
+        android:id="@+id/Title_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="horizontal">
 
         <TextView
+            android:id="@+id/text_flixnet"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:gravity="center"
             android:text="@string/flixnet"
             android:textSize="@dimen/text_title"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="21dp"
+            android:layout_weight="2"
+            android:src="@drawable/baseline_search_24"
+            android:scaleY="1"
+            android:scaleX="1" />
+
 
     </LinearLayout>
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment_container"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Title_container"
         app:layout_constraintBottom_toTopOf="@id/nav_container"
         android:layout_width="match_parent"
         android:layout_height="0dp"/>
@@ -65,7 +79,5 @@
         android:background="@drawable/border"/>
 
     </LinearLayout>
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
