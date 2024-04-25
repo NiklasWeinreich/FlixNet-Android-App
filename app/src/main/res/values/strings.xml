@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">FlixNet-Android-App</string>
     <string name="flixnet">FLIXNET</string>
+    <string name="s_g">Søg...</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

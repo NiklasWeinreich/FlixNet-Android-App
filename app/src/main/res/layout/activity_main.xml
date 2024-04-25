@@ -28,14 +28,14 @@
             android:layout_weight="1"/>
 
         <EditText
+            android:id="@+id/btn_search"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_weight="1"
-            android:hint="Søg..."
+            android:hint="@string/s_g"
             android:drawableEnd="@drawable/baseline_search_24"
             android:src="@drawable/baseline_search_24" />
-
 
     </LinearLayout>
 
@@ -44,6 +44,7 @@
         app:layout_constraintTop_toBottomOf="@+id/Title_container"
         app:layout_constraintBottom_toTopOf="@id/nav_container"
         android:layout_width="match_parent"
+        android:layout_margin="10dp"
         android:layout_height="0dp"/>
 
     <LinearLayout
